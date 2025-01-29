@@ -1,0 +1,37 @@
+<!-- Create a todo list -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>List Kegiatan</h1>
+    <div class="container">
+      <div class="input-container">
+        <input
+          type="text"
+          placeholder="Mau ngapain hari ini?"
+          id="tf-input"
+          class="textfield"
+        />
+        <button onclick="addTask()" class="button">Tambah</button>
+        
+      </div>
+      <div>
+        <ul id="task-container">
+          <!-- <li id="4344" class="list-item">
+            Task 1
+            <button onclick="deleteTask('4344')" class="delete-button">
+              Delete
+            </button>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</html>
